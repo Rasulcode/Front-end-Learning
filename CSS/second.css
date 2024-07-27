@@ -1,0 +1,37 @@
+/* body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image:url(
+        https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg
+    )
+    
+} */
+.p-text{
+    color: aliceblue;
+    background-image: url(
+        https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg
+    );
+}
+table,th,td{
+    border: 3px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: blue;
+    
+}
+table{
+    width: 100%;
+    border-spacing: 40px;
+}
+th,td{
+    background-color: aquamarine;
+    padding: 10px;
+}
+tr{
+    text-align: center;
+}
+table caption{
+    font-size:20px;
+    color: rgb(19, 65, 65);
+}
