@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/second.css">
+    <link rel="stylesheet" href="../CSS/second.css">
     <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
     <title>Second</title>
 </head>
 <body>
+    <ul class="top">
+        <li class="li"><a href="#">Home</a></li>
+        <li class="li"><a href="#">News</a></li>
+        <li class="li"><a href="#">About</a></li>
+        <li class="li"><a href="#">Contact</a></li>
+    </ul>
     <h1 style="color: red; text-align: center;">You Used Relative URL</h1>
     <p class="p-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero est doloremque nemo corporis illo rerum alias 
         repudiandae minima deleniti nobis delectus, itaque nulla corrupti maiores sunt officiis eaque quo earum. 
@@ -28,8 +34,8 @@
     <table>
         <caption>Students and their incomes</caption>
         <tr>
-            <th style="width: 50%;">Name</th>
-            <th>Country</th>
+            <th style="width: 50%;" colspan="2">Name and Country</th>
+            
             <th>Salary</th>
             <th>Photo</th>
         </tr>
@@ -37,20 +43,52 @@
             <td>Rasul</td>
             <td>Azerbaijan</td>
             <td>100$</td>
-            <td style="height: 80px;"><img src="/Images/ai-image-generator-one.webp" width="50px" height="50px"></td>
+            <td style="height: 80px;"><img src="../Images/ai-image-generator-one.webp" width="50px" height="50px"></td>
         </tr>
         <tr>
             <td>Anna</td>
             <td>Russia</td>
             <td>300$</td>
-            <td style="height: 80px;"><img src="/Images/cyberpunkdolphin.png" width="50px" height="50px"></td>
+            <td style="height: 80px;"><img src="../Images/cyberpunkdolphin.png" width="50px" height="50px"></td>
         </tr>
         <tr>
             <td>John</td>
             <td>USA</td>
             <td>600$</td>
-            <td style="height: 80px;"><img src="/Images/gavarni-reduced2.jpg" width="50px" height="50px"></td>
+            <td style="height: 80px;"><img src="../Images/gavarni-reduced2.jpg" width="50px" height="50px"></td>
         </tr>
     </table>
+    <hr>
+    <h2>To Do List</h2>
+    <ul>
+        <li>Wake Up</li>
+        <li>Clean teeth</li>
+        <li>Sport exercises</li>
+        <ol>
+            <li>Breathing</li>
+            <li>Open door</li>
+        </ol>
+        <li>Meditation</li>
+        <li>Breakfast</li>
+        <li>Reading</li>
+        <li>Coding</li>
+    </ul>
+    <h2>Front-end Roadmap</h2>
+    <ol type="I" start="20">
+        <li>Html</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Git and github</li>
+        <li>React</li>
+        <li>Mongo DB</li>
+        <li>Next JS</li>
+    </ol>
+    <h2>Description List</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- hot drink</dd>
+        <dt>Bike</dt>
+        <dd>- transport vehicle</dd>
+    </dl>
 </body>
 </html>
