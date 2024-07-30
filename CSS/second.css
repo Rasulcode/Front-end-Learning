@@ -63,3 +63,70 @@ tr:nth-child(even) {
 ul{
     list-style-type:disc;
 }
+.div-element{
+    background-color: olivedrab;
+    font-size: larger;
+    color: aliceblue;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+}
+.span-element{
+    color: black;
+}
+.town-container{
+    overflow: auto;
+    width: 100%;
+}
+.town-container div{
+    width: 33%;
+    /* float: left; */
+    text-align: center;
+    height: 176px;
+    display: inline-block;
+}
+.h2-pizza{
+    color: #333333;
+    text-align: center;
+}
+.pizza-container{
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+.pizza-container div {
+    border: 2px solid #333333;
+    border-radius: 10px;
+
+    width: 30%;
+    text-align: center;
+    /* display:inline-block; */
+    margin: 5px;
+    padding: 10px;
+}
+.pizza-container div img{
+    width: 300px;
+    height: 100px;
+}
+
+
+/* The second pizza container */
+.pizza-container2{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+.pizza-container2 div{
+    border: 2px solid #333333;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    /* display: inline-block; */
+}
+.pizza-container2 div img{
+    width: 300px;
+    height: 100px;
+}
