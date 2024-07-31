@@ -27,9 +27,7 @@ li a{
 li a:hover {
     background-color: #111111;
   }
-picture{
-    margin-left: 30px;
-}
+
 .p-text{
     color: aliceblue;
     background-image: url(
@@ -129,4 +127,11 @@ ul{
 .pizza-container2 div img{
     width: 300px;
     height: 100px;
+}
+
+iframe{
+    border: none;
+}
+.iframe-div{
+    display: flex;
 }
