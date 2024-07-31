@@ -134,4 +134,14 @@ iframe{
 }
 .iframe-div{
     display: flex;
+    margin-bottom: 50px;
+}
+.bulb{
+    display: flex;
+}
+.bulb .bulbText{
+    text-align: center;
+    color: rgb(119, 119, 4);
+    font-size: larger;
+    
 }

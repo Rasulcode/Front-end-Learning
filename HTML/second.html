@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
     <link rel="stylesheet" href="../CSS/second.css">
     <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
     <title>Second</title>
@@ -152,6 +153,23 @@
         <iframe title="YouTube" src="main.html" width="50%" height="300px"></iframe>
         <img src="../Images/tokyothings.jpeg" width="50%" height="300px">
     </div>
+    <div id="js-demo">
+        <p></p>
+    </div>
+    <div class="bulb">
+        <div class="bulbText" style="width: 50%;">
+        <h2>Bulb game</h2>
+        <p>Click th button to turn on  or turn off the light.</p>
+        </div>
+        <div class="turn-on-off" style="width:50%;">
+            <img id="bulbImage" src="../Images/turn-off.jpg" width="100px" height="180px">
+            <p>
+                <button type="button" onclick="light(1)">Light on</button>
+                <button type="button" onclick="light(0)">Light off</button>
+            </p>
+        </div>
+    </div>
+    
 
 
 
@@ -164,6 +182,6 @@ function myFunction() {
   }
 }
 </script>
-<link href="/Javascript/main.js"> 
+<script src="../Javascript/main.js"></script>
 </body>
 </html>
