@@ -5,7 +5,7 @@ body{
     min-height: 100vh;
     max-width: 800px;
     margin:0 auto;
-    padding: rem;
+    padding: 1rem;
     border-left: 1px solid #333;
     border-right: 1px solid #333;
 }
@@ -14,7 +14,4 @@ table th,td{
     font-family: 'Courier New', Courier, monospace;
     border-collapse: separate;
     padding: 0.5rem;
-}
-header, main, footer{
-    margin-left: 15px;
 }
