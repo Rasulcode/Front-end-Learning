@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h2>Cities</h2>
+        <h2>Cities<span>&#128509;</span></h2>
     </header>
     <section>
         <nav>
@@ -29,5 +29,45 @@
     <footer>
         <p>Footer</p>
     </footer>
+
+        <div class="div-form">
+            <form>
+                <label for="f-name">First Name:</label><br>
+                <input type="text" id="f-name" name="f-name" value="Rasul"><br>
+                <label for="l-name">Last Name:</label><br>
+                <input type="text" id="l-name" name="l-name" value="Dadashov"><br>
+                <p>Choose your best language</p>
+                <input type="radio" id="html" name="fav-lang" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav-lang" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="js" name="fav-lang" value="js">
+                <label for="js">Javascript</label><br>
+                <p>Which transport you have?</p>
+                <input type="checkbox" id="veh1" name="veh1" value="Bike">
+                <label for="veh1">Bike</label><br>
+                <input type="checkbox" id="veh2" name="veh2" value="Car">
+                <label for="veh2">Car</label><br>
+                <input type="checkbox" id="veh3" name="veh3" value="Bus">
+                <label for="veh3">Bus</label><br>
+                <p>Choose the best car</p>
+                <select id="cars" name="cars" size="3" multiple>
+                    <option value="bmw">BMW</option>
+                    <option value="mercedes" selected>Mercedes</option>
+                    <option value="lada">Lada</option>
+                    <option value="Volvo">Volvo</option>
+                </select><br>
+                <textarea name="message" rows="10" cols="30">For message</textarea><br><br>
+                <input type="password"><br>
+                <p>date</p>
+                <input type="date"><br>
+                <p>Datetime:</p>
+                <input type="datetime-local">
+                <p>Download a file:</p>
+                <input type="file">
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+<script src="../Javascript/layout.js"></script>
 </body>
 </html>
